@@ -31,11 +31,6 @@ namespace AutoSource.AutoSourceSystem
             }
         }
 
-
-
-        [Category("_"), Description("El id del formulario. También puede asignarse programaticamente. Es requerido para poder subir los cambios que haga el usuario.")]
-        public int FormID { get; set; }
-
         [Category("_"), Description("Determina si se pueden editar y subir los cambios a la base de datos."), DefaultValue(false)]
         public bool SoloLectura { get; set; }
 
