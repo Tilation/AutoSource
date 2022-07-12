@@ -8,25 +8,6 @@ using System.Windows.Forms;
 
 namespace AutoSource.AutoSourceSystem
 {
-    public class EditableItem<T> : IEditableObject
-    {
-        public T Object { get; set; }
-        public void BeginEdit()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void CancelEdit()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void EndEdit()
-        {
-            throw new NotImplementedException();
-        }
-    }
-
     [DesignerCategory("")]
     public abstract partial class AutoSource<T> : BindingSource where T : class
     {
