@@ -46,8 +46,7 @@ namespace AutoSource
 
         protected override string ObtenerNombrePropiedadID()
         {
-            var temp = new TestObject();
-            return nameof(temp.Id);
+            return nameof(TestObject.Id);
         }
 
         protected override IEnumerable<TestObject> ObtenerTodosLosItemsDesdeDB()
