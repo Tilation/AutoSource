@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace BindingSourceTests
+namespace AutoSource
 {
     public partial class TestForm : Form
     {

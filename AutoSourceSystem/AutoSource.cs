@@ -6,7 +6,7 @@ using System.Reflection;
 using System.Threading;
 using System.Windows.Forms;
 
-namespace BindingSourceTests
+namespace AutoSource.AutoSourceSystem
 {
     public class EditableItem<T> : IEditableObject
     {

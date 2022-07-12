@@ -1,4 +1,4 @@
-﻿namespace BindingSourceTests
+﻿namespace AutoSource
 {
     partial class TestForm
     {
@@ -51,7 +51,7 @@
             this.addressDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.emailDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.phoneDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.testSource1 = new BindingSourceTests.TestSource();
+            this.testSource1 = new AutoSource.TestSource();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();

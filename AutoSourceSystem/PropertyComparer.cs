@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 
-namespace BindingSourceTests
+namespace AutoSource.AutoSourceSystem
 {
 	internal class PropertyComparer<T> : IComparer<T>
 	{

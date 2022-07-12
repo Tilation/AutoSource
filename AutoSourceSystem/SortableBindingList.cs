@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 
-namespace BindingSourceTests
+namespace AutoSource.AutoSourceSystem
 {
 	internal class SortableBindingList<T> : BindingList<T>, IBindingListView, IRaiseItemChangedEvents
 	{

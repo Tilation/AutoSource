@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace BindingSourceTests
+namespace AutoSource.AutoSourceSystem
 {
     internal struct WorkerResult<T> where T : class
     {
